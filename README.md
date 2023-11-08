@@ -12,13 +12,13 @@ This repo aims to develop and document APIs using Flask, and manage them with Az
 
 # Documentation
 ### 1. Flask-based RESTful API w/ Swagger
-Used Flask to develop an endpoint to handle a simple GET request. The endpoint created will take in a first name and a last name and returns and a json message of: ```message: Hello, <first name> <last name>!```. The Flask app also includes Swagger/OpenAPI documentation using the ```flasgger``` package. Swagger docstring documentations are included in the script. When run, the Flask app will first return a home/main page. To go to the created endpoint, I inputted ```hello?first=susan&last=chen``` after the forward slash (/) in the URL. To get to the Swagger documentation, input ```apidocs``` instead. The following links to the endpoints are included below. The highlighted parts of the link can be edited to reach the endpoints: 
+Used Flask to develop an endpoint to handle a simple GET request. The endpoint created will take in a first name and a last name and returns and a json message of: ```message: Hello, <first name> <last name>!```. The Flask app also includes Swagger/OpenAPI documentation using the ```flasgger``` package. Swagger docstring documentations are included in the script. When run, the Flask app will first return a home/main page. To go to the created endpoint, I inputted ```hello?first=susan&last=chen``` after the forward slash (/) in the URL. To get to the Swagger documentation, input ```apidocs``` instead. The following links to the endpoints are included below: 
 + Main Page
-https://5000-cs-1039191608401-default.cs-us-east1-pkhd.cloudshell.dev/?authuser=0
+`https://5000-cs-1039191608401-default.cs-us-east1-pkhd.cloudshell.dev/?authuser=0`
 + Name Endpoint
-https://5000-cs-1039191608401-default.cs-us-east1-pkhd.cloudshell.dev/**hello?first=susan&last=chen**
+`https://5000-cs-1039191608401-default.cs-us-east1-pkhd.cloudshell.dev/hello?first=susan&last=chen`
 + Swagger Documentation Endpoint
-+ https://5000-cs-1039191608401-default.cs-us-east1-pkhd.cloudshell.dev/**apidocs**
+`https://5000-cs-1039191608401-default.cs-us-east1-pkhd.cloudshell.dev/apidocs`
 
 ### 2. Azure API deployment
 Link: https://flaskfunction.azurewebsites.net/api/hello  
