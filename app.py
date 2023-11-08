@@ -31,14 +31,7 @@ def hello_get():
     last = request.args.get('last', '')
     firstCapital = first.capitalize()
     lastCapital = last.capitalize()
-    return f'Hello, {firstCapital} {lastCapital}!'
+    return jsonify({'message': f'Hello, {firstCapital} {lastCapital}!'})
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-## test CURL for post:
-# curl -X POST http://localhost:5000/hello -H "Content-Type: application/json" -d '{"name": "Cooper"}'
-
-## test CURL for get:
-# curl -X GET http://localhost:5000/hello?name=Cooperper
